@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Galeria zdjęć natury</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <h2>Dostosuj wygląd według swoich preferencji</h2>
+
+    <div class="controls">
+        <div>
+            <label for="spacing">Ramka:</label>
+            <input id="spacing" type="range" name="spacing" min="0" max="20" value="1" data-sizing="px">
+        </div>
+
+        <div>
+            <label for="base">Kolor ramki:</label>
+            <input id="base" type="color" name="base" value="#ffff00">
+        </div>
+        <div>
+            <label for="blur">Rozmycie:</label>
+            <input id="blur" type="range" name="blur" min="0" max="10" value="0" data-sizing="px">
+        </div>
+        <div>
+            <label for="baseBackground">Kolor tła:</label>
+            <input id="baseBackground" type="color" name="baseBackground" value="#000000">
+        </div>
+    </div>
+
+    <div class="gallery-box">
+        <figure>
+            <img src="img/00_miasto.jpg">
+        </figure>
+    </div>
+
+    <div class="gallery-box">
+        <figure>
+            <img src="img/01_miasto.jpg">
+        </figure>
+    </div>
+
+    <div class="gallery-box">
+        <figure>
+            <img src="img/02_miasto.jpg">
+        </figure>
+    </div>
+
+    <div class="gallery-box">
+        <figure>
+            <img src="img/03_miasto.jpg">
+        </figure>
+    </div>
+
+    <div class="gallery-box">
+        <figure>
+            <img src="img/04_miasto.jpg">
+        </figure>
+    </div>
+
+    <div class="back">
+        <button type="button" class="btn" onclick="location.href='index.html';">Powrót do strony głównej</button>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+@media all and (max-width: 1200px) {
+    .panel {
+        font-size: 14px;
+    }
+
+    .panel.open {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .btn {
+        padding: 15px;
+    }
+
+}
+
+@media all and (max-width: 800px) {
+    .panel {
+        font-size: 14px;
+    }
+
+    .panel.open {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .btn {
+        padding: 10px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .panel {
+        font-size: 12px;
+    }
+
+    .panel.open {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .btn {
+        padding: 5px;
+    }
+
+}
+
+@media all and (max-width: 450px) {
+    .panel {
+        font-size: 10px;
+    }
+
+    .panel.open {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .btn {
+        padding: 5px;
+    }
+
+}
+
+
+/* PODSTRONY */
+
+@media all and (max-width: 800px) {
+    body {
+        padding: 30px;
+    }
+
+    figure {
+        width: 450px;
+        height: 250px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    input {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    figure {
+        width: 350px;
+        height: 200px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    input {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media all and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    figure {
+        width: 250px;
+        height: 150px;
+    }
+
+
+}
