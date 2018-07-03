@@ -69,6 +69,10 @@
         padding: 30px;
     }
 
+    .gallery-box {
+        padding: 20px 30px;
+    }
+
     figure {
         width: 450px;
         height: 250px;
@@ -89,6 +93,10 @@
         padding: 15px;
     }
 
+    .gallery-box {
+        padding: 20px 20px;
+    }
+
     figure {
         width: 350px;
         height: 200px;
@@ -101,7 +109,6 @@
     input {
         margin-bottom: 15px;
     }
-
 }
 
 @media all and (max-width: 480px) {
@@ -109,10 +116,23 @@
         padding: 10px;
     }
 
+    .gallery-box {
+        padding: 10px 10px;
+    }
+
     figure {
         width: 250px;
         height: 150px;
     }
+}
 
+@media all and (max-width: 400px) {
+    body {
+        padding: 5px;
+    }
 
+    figure {
+        width: 200px;
+        height: 120px;
+    }
 }
